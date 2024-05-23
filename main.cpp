@@ -45,7 +45,7 @@ int main(int argc, const char** argv) {
             cin >> n;
 
             auto r = RSA::desencriptar(msg, d, n);
-            cout << r;
+            cout << r << endl;
         } else if (opt == '4') {
             break; // salimos
         }
